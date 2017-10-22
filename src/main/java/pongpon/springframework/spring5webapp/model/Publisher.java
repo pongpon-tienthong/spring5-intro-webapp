@@ -13,6 +13,9 @@ public class Publisher {
 
     private String address;
 
+    public Publisher() {
+    }
+
     public Publisher(String name, String address) {
         this.name = name;
         this.address = address;
